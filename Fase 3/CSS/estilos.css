@@ -35,15 +35,15 @@ main{
     float: left;
 }
 .menu li a{
-    background-color: black;
-    color: #FAFFAF;
+    background-color: #5584AC;
+    color: black;
     text-decoration: none;
     padding: 20px 80px;
     display: block;
 }
 
 .menu li a:hover{
-    background-color: chocolate;
+    background-color: #faffaf;
 }
 .menu li ul{
     display: none;
@@ -52,8 +52,8 @@ main{
     position: absolute;
     min-width: 140px;
 }
-.menu li:hover > ul{
-    display: block ;
+.menu li:hover ul{
+    display: block;
 }
 .menu li ul li{
     position: relative;
